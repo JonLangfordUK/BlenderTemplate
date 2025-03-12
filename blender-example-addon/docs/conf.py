@@ -8,8 +8,6 @@ SRC_DIR = ROOT_DIR / "src"
 with open(ROOT_DIR / "pyproject.toml", "r", encoding="utf-8") as f:
     pyproject = toml.load(f)
 
-print(pyproject)
-
 project = pyproject["project"]["name"]
 
 project_name = pyproject["project"]["name"]
